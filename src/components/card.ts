@@ -14,19 +14,12 @@ export class Card extends Component {
     this.render();
   }
 
-  render() {
-    super.render();
-    this.element.querySelector('.app');
-  }
-
   createTemplate() {
     return `
      <li>
-     <p> ID: ${this.pet.id} </p>
      <p> Name: ${this.pet.name} </p> 
      <p> Race: ${this.pet.race} </p>
      <p> Owner: ${this.pet.owner} </p>
-     <p> Adopted: ${this.pet.isAdopted} </p>
      </li>`;
   }
 }

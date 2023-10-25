@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  background-color: chocolate;
 }
 
 ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
+  font-size: 1.5rem;
 }
 
 header {

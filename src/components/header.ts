@@ -7,11 +7,6 @@ export class Header extends Component {
     this.render();
   }
 
-  render() {
-    super.render();
-    console.log('Header');
-  }
-
   createTemplate() {
     return `
     <header>
