@@ -12,8 +12,7 @@ export class List extends Component {
 
   render() {
     super.render();
-    const elements = repo().map((item) => new Card('ul', item as Pets));
-    console.log(elements);
+    return repo().map((item) => new Card('ul', item as Pets));
   }
 
   createTemplate() {
