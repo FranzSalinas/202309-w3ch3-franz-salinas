@@ -14,13 +14,3 @@ export abstract class Component {
     this.element = element.lastElementChild!;
   }
 }
-
-//   ------------------- beforebegin
-// <div>
-//   ------------------- afterbegin
-//   ......
-//   <p></p>
-//   .......
-//   ------------------- beforeend
-// </div>
-// ---------------------- afterend

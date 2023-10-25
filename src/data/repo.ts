@@ -7,7 +7,7 @@ export const repo = () => {
       name: 'Juancho',
       owner: 'Serafin',
       race: 'German sheper',
-      isAdopted: true,
+      isAdopted: false,
     },
 
     {
@@ -15,7 +15,7 @@ export const repo = () => {
       name: 'Nitin',
       owner: 'Juan',
       race: 'Canarian Retriever',
-      isAdopted: true,
+      isAdopted: false,
     },
 
     {
@@ -23,7 +23,7 @@ export const repo = () => {
       name: 'Bruno',
       owner: 'Ivana',
       race: 'Brasilian sheper',
-      isAdopted: true,
+      isAdopted: false,
     },
 
     {
