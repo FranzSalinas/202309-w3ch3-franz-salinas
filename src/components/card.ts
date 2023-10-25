@@ -15,8 +15,7 @@ export class Card extends Component {
   }
 
   createTemplate() {
-    return `
-     <li>
+    return `<li>
      <p> Name: ${this.pet.name} </p> 
      <p> Race: ${this.pet.race} </p>
      <p> Owner: ${this.pet.owner} </p>
